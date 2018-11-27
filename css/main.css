@@ -1,0 +1,62 @@
+.banner {
+  position: relative;
+  width: 300px;
+  height: 600px;
+  font-family: 'PT Sans', sans-serif;
+  background: #EBEAEF;
+  cursor: pointer;
+}
+
+#logo {
+  position: absolute;
+  max-width: 150px;
+  top: 5%;
+  left: 50%;
+  transform: translate(-50%);
+  -webkit-transform: translate(-50%);
+  -moz-transform: translate(-50%);
+  -ms-transform: translate(-50%);
+  -o-transform: translate(-50%);
+}
+
+#container {
+  position: absolute;
+  width: 100%;
+  top: 17%;
+  text-align: center;
+}
+
+#title {
+  text-transform: uppercase;
+  color: #EF483D;
+  margin: 15px 0;
+}
+
+#main {
+  font-weight: 550;
+  width: 70%;
+  margin: 10px auto;
+  color: #333;
+}
+
+#cta {
+  display: block;
+  font-size: 18px;
+  color: #ffffff;
+  text-decoration: none;
+  padding: 10px 13px;
+  background: #EF483D;
+  width: 35%;
+  margin: 40px auto;
+}
+
+#product {
+  position: absolute;
+  bottom: 0;
+  z-index: 2;
+}
+
+#circle {
+  position: absolute;
+  bottom: -3%;
+}
